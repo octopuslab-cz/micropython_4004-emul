@@ -11,9 +11,10 @@ https://github.com/CodeAbbey/intel4004-emu
 
 update (python 3.5) -> micropython
 
+
 ---
 
-first experiments
+https://codeabbey.github.io/heavy-data-1/msc-4-asm-manual-1973.pdf
 
 <pre>
 Mnemonic Instruction 		MODIFIERS
