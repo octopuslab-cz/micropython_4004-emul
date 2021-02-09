@@ -61,5 +61,6 @@ Mnemonic Instruction 		MODIFIERS
   STC  Set Carry	
   DAA	 Decimal Adjust Accumulator	
   KBP	 Keybord Process	
-  DCL	 Designate Command Line	
+  DCL	 Designate Command Line
+  
 </pre>
