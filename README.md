@@ -50,16 +50,16 @@ Mnemonic Instruction 		MODIFIERS
   RD3	 Read Status Char 3	
   CLB	 Clear Both		
   CLC	 Clear Carry		
-  IAC	Increment Accumulator	
-  CMC	Complement Carry	
-  CMA	Complement		
-  RAL	Rotate Left		
-  RAR	Rotate Right		
-  TCC	Transfer Carry and Clear	
-  DAC	Decrement Accumulator	
-  TCS	Transfer Carry Subtract	
-  STC Set Carry	
-  DAA	Decimal Adjust Accumulator	
-  KBP	Keybord Process	
-  DCL	Designate Command Line	
+  IAC	 Increment Accumulator	
+  CMC	 Complement Carry	
+  CMA	 Complement		
+  RAL	 Rotate Left		
+  RAR	 Rotate Right		
+  TCC	 Transfer Carry and Clear	
+  DAC	 Decrement Accumulator	
+  TCS	 Transfer Carry Subtract	
+  STC  Set Carry	
+  DAA	 Decimal Adjust Accumulator	
+  KBP	 Keybord Process	
+  DCL	 Designate Command Line	
 </pre>
