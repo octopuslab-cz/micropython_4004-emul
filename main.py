@@ -2,6 +2,7 @@ import sys
 from intel4004_emu import translator
 from intel4004_emu import executor
 from intel4004_emu import consolex
+from time import sleep
 
 
 class EnhancedExecutor(executor.Executor, consolex.Consolex):
@@ -9,6 +10,7 @@ class EnhancedExecutor(executor.Executor, consolex.Consolex):
     def printRegs(self):
         print(' '.join([str(r) for r in self.regs]))
         print("acc=%d | cy=%d | ip=%d | dp=%d | cycles=%d" % (self.acc, self.cy, self.ip, self.dp, self.cycles))
+
     
     def printMemory(self, rows, cols):
         print("-"*39)
@@ -19,6 +21,18 @@ class EnhancedExecutor(executor.Executor, consolex.Consolex):
             if (row * cols + col) % 16:
                 print()
         print()
+
+
+    def outputReg(self):
+        print("--- output > ", self.acc)
+        sleep(1)
+
+
+    def inputReg(self):
+        print("--- input:")
+        self.acc = int(input())
+        # print("--- o.reg ---", self.acc)
+        sleep(1)
         
 
     def c_3ff(self):
@@ -31,6 +45,18 @@ class EnhancedExecutor(executor.Executor, consolex.Consolex):
 
     def c_3fd(self):
         self.printMemory(4, 16)
+
+
+    def c_3fc(self):
+        sleep(1)
+
+
+    def c_3fb(self):
+        self.outputReg()
+
+
+    def c_3fa(self):
+        self.inputReg()
 
 
 def loadSource(src_file):
@@ -61,9 +87,9 @@ def run_src(src_file):
     print()
 
 
-run_src("examples4004/test.asm")
+#run_src("examples4004/test.asm")
 run_src("examples4004/simple.asm")
 run_src("examples4004/hellow.asm")
-run_src("examples4004/toupper.asm")
-run_src("examples4004/strrev.asm")
+#run_src("examples4004/toupper.asm")
+#run_src("examples4004/strrev.asm")
 
