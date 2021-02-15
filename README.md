@@ -1,5 +1,7 @@
 # ESP32 - micropython_4004-emul
 
+simple 4004 emulator - ESP32 & MicroPython (octopus_lab libray)
+
 ![4004](img/i4004g.jpg)
 
 This repo contains ESP32 Micropython application based on **OctopusLAB Framework** -> [octopusengine/octopuslab](https://github.com/octopusengine/octopuslab).
