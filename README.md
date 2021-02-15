@@ -1,6 +1,6 @@
 # ESP32 - micropython_4004-emul
 
-simple 4004 emulator - ESP32 & MicroPython (octopus_lab libray)
+simple 4004 emulator - ESP32 & MicroPython (octopus_lab framework)
 
 ![4004](img/i4004g.jpg)
 
