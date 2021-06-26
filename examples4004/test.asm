@@ -5,7 +5,9 @@
 ;by default N = 5
 
 ldm 0               ; acc = 0
+jms $3f0            ; output acc to exp8 + sleep
 add r0              ; acc += r0
+jms $3f0            ; output acc to exp8 + sleep
 jcn an main_loop    ; if acc == 0 jump to main_loop
 
 ldm 5               ; acc = 5
