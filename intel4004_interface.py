@@ -12,6 +12,7 @@ from components.i2c_expander import Expander8
 from utils.bits import neg, reverse, int2bin, get_bit, set_bit
 # int2bin(reverse(b1))   >   '10011111'
 
+DELAY = 0.5
 
 INPUTS4 = True
 i1 = Pin(39, Pin.IN)
@@ -87,7 +88,7 @@ class Enhanced_executor(executor.Executor, consolex.Consolex):
         print("--- outputReg > ", self.acc)
         if I2C_EXP:
            exp8.write_8bit(self.acc)
-        sleep(1)
+        sleep(DELAY)
 
 
     def inputReg(self):

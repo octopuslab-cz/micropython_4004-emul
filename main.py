@@ -33,9 +33,10 @@ def fetchState(cpu):
 print("--- i4004 (e/si)mulator ---")
 interface_test()
 
-run_src("examples4004/test.asm")
+# run_src("examples4004/test.asm")
 run_src("examples4004/simple.asm")
 run_src("examples4004/hellow.asm")
-#run_src("examples4004/toupper.asm")
-#run_src("examples4004/strrev.asm")
+# run_src("examples4004/toupper.asm")
+# run_src("examples4004/strrev.asm")
+run_src("examples4004/endless.asm")
 
