@@ -1,4 +1,5 @@
-; input/output acc + sleep, loop - basic test
+; input/output acc + sleep, endless loop
+; 2021 - OctopusLab - for #EDU_KIT1
 ;--------------------------------------------
 
 start:
