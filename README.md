@@ -22,7 +22,7 @@ https://codeabbey.github.io/heavy-data-1/msc-4-asm-manual-1973.pdf
 
 <pre>
 Mnemonic Instruction       MODIFIERS
-NOP No Operation	         none
+NOP No Operation           none
 JCN Jump Conditional       condition, address	
 FIM Fetch Immediate        register pair, data		
 SRC Send Register Control  register pair
