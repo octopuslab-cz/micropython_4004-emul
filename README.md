@@ -21,23 +21,23 @@ update (python 3.5) -> micropython
 https://codeabbey.github.io/heavy-data-1/msc-4-asm-manual-1973.pdf
 
 <pre>
-Mnemonic Instruction 		MODIFIERS
-  NOP  No Operation		     none
-  JCN	 Jump Conditional	   condition, address	
-  FIM	 Fetch Immediate		 register pair, data		
-  SRC	 Send Register Control	register pair
-  FIN	 Fetch Indirect		   register pair		 
-  JIN	 Jump Indirect		   register pair		
-  JUN	 Jump Uncoditional	 address	
-  JMS	 Jump to Subroutine	 address	
-  INC	 Increment		       register		
-  ISZ	 Increment and Skip	 register, address
-  ADD	 Add			           register
-  SUB	 Subtract		         register
-  LD	 Load			           register
-  XCH	 Exchange		         register
-  BBL	 Branch Back and Load	data
-  LDM	 Load Immediate		   data
+Mnemonic Instruction 		     MODIFIERS
+  NOP  No Operation		       none
+  JCN	 Jump Conditional	     condition, address	
+  FIM	 Fetch Immediate		   register pair, data		
+  SRC	 Send Register Control register pair
+  FIN	 Fetch Indirect		     register pair		 
+  JIN	 Jump Indirect		     register pair		
+  JUN	 Jump Uncoditional	   address	
+  JMS	 Jump to Subroutine	   address	
+  INC	 Increment		         register		
+  ISZ	 Increment and Skip	   register, address
+  ADD	 Add			             register
+  SUB	 Subtract		           register
+  LD	 Load			             register
+  XCH	 Exchange		           register
+  BBL	 Branch Back and Load	 data
+  LDM	 Load Immediate		     data
   WRM	 Write Main Memory	
   WMP	 Write RAM Port		
   WRR	 Write ROM Port		
